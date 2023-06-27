@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+    background-color:#F2EFE6;
+}
+.content4 {
+    flex:1;
+    padding-bottom: 50%;
+}
+.photo{
+    background: url(images/jas.jpg) no-repeat left;
+    background-size: 50%;
+    background-color: #F2EFE6;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: 2em;
+}
+.biography{
+    width: 55%;
+    float: right;
+    padding: 100px;
+    background-color:#eee2dc;
+}
+.biography h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color:darkslategray;
+    font-family: 'Bahnschrift Light';
+}
+p{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-family: 'Bahnschrift Light';
+}
+.box{
+    box-sizing: border-box;
+    overflow: visible;
+    padding: 2em 4em;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 25%;
+}
+h2{
+    text-align: center;
+    font-size:xx-large;
+    font-weight:normal;
+    font-style:normal;
+    font-family: 'Bahnschrift Light';
+    margin-top:5%;
+    color:darkslategray;
+}
+.videos {
+    display:flex;
+    justify-content: space-between;
+    max-width: 100%;
+    position:relative;
+    right:25%;
+}
+.video {
+    width: 25%;
+    margin-left: 10%;
+}
+.description #p1{
+    display: inline-block;
+    margin-right: 25%;
+    margin-left: 0;
+    font-size: large;
+}
+.description #p2{
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 25%;
+    font-size: large;
+}

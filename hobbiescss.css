@@ -1,0 +1,29 @@
+#naslov{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    margin: 2rem 3rem;
+    color: #595959;
+}
+.naslov{
+    height:600px;
+    margin-top:150px;
+}
+.box p{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-family: 'Bahnschrift Light';
+}
+.box{
+    box-sizing: border-box;
+    overflow: visible;
+    padding: 2em 4em;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 25%;
+}

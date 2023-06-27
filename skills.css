@@ -1,0 +1,37 @@
+
+.container1 {
+    display: flex;
+    height:450px;
+    margin-top:10px;
+    padding-top: 30px;
+    margin-left: 60px;
+    margin-right:20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: pink solid;
+    border-radius: 50px;
+}
+.naslov{
+    height:100px;
+    margin-top:100px;
+    padding-top: 20px;
+}
+#naslov{
+font-size: xx-large;
+text-align: center;
+font-family: 'Segoe UI';
+font-weight: normal;
+margin: 2rem 3rem;
+color: #595959;
+}
+.column li {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    margin: 2rem 3rem;
+    color: #595959;
+}
