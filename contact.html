@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MyPage</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="forms.css">
+    <script>
+        function submitForm() {
+            alert("Your message has been submitted!");
+            var form = document.getElementById('form');
+            form.submit();
+            return false;
+        }
+    </script>
+</head>
+<body>
+<header>
+    <h1>HRISTINA ZDRAVESKA</h1>
+    <nav>
+        <ul class="menu">
+            <li><a id="home" href="index.html"><i class="uil uil-home">
+            </i>HOME</a></li>
+            <li><a id="about" href="aboutme.html">
+                <i class="uil uil-user"></i> ABOUT ME</a></li>
+            <li><a id="hobbies" href="skills.html">
+                <i class="uil uil-book-open"></i>
+                SKILLS</a></li>
+            <li><a id="portfolio" href="hobbies.html">
+                <i class="uil uil-swimmer"></i>
+                HOBBIES</a></li>
+            <li><a id="contact" href="contact.html">
+                <i class="uil uil-at"></i>
+                CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+    
+    <div class="content5">
+        <h2>Contact me</h2>
+        <br><br>
+        <a href="mailto:kikezdraveska@gmail.com">kikezdraveska@gmail.com</a>
+        <br><br>
+        <a href="https://www.instagram.com/zdraveskah/">@zdraveskah</a>
+    </div>
+    <div class="box">
+        <h2>Leave a message</h2>
+        <form id="form" onsubmit="submitForm()">
+            <label for="name">NAME</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required>
+            <label for="lastname">LAST NAME</label>
+            <input id="lastname" type="text" name="lastname" placeholder="Enter your last name" required>
+            <label for="email">EMAIL</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+            <label for="message">LEAVE A MESSAGE</label>
+            <textarea id="message" name="message" placeholder="What's on your mind?" rows="3" required></textarea> 
+                <div class="buttons">
+                    <input id="submit" type="submit" value="Send">
+                    <input id="startover" type="reset" value="Start over">
+                </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>2023 Hristina Zdraveska</p>
+
+    </footer>
+</body>
+</html>
